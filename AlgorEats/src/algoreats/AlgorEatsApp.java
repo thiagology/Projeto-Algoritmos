@@ -15,6 +15,7 @@ public class AlgorEatsApp extends Application {
 		
 		Scene scene = new Scene(rootScene, 512, 602);
 		primaryStage.setScene(scene);
+		primaryStage.setResizable(false);
 		primaryStage.show(); 
 		
 	}
