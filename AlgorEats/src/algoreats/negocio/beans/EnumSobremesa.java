@@ -6,7 +6,8 @@ public enum EnumSobremesa {
 	SORVETE ("Sorvete"),
 	TORTA ("Torta"),
 	PUDIM ("Pudim"),
-	PAVE("Pavê");
+	PAVE("Pavï¿½"),
+        MOUSSE ("Mousse");
 	
     private String nome;
     

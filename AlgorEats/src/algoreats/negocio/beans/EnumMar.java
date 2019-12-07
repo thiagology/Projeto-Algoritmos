@@ -3,10 +3,11 @@ package algoreats.negocio.beans;
 public enum EnumMar {
 	
 	PEIXE ("Peixe"),
-	CAMARAO ("Camarão"),
+	CAMARAO ("Camarï¿½o"),
 	LAGOSTA ("Lagosta"),
 	LULA ("Lula"),
-	SUSHI("Sushi");
+	SUSHI("Sushi"),
+        OSTRA("Ostra");
 	
     private String nome;
     

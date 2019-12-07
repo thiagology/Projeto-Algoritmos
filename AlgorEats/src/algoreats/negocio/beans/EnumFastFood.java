@@ -2,11 +2,12 @@ package algoreats.negocio.beans;
 
 public enum EnumFastFood {
 	
-	HAMBURGUER ("Hambúrguer"),
+	HAMBURGUER ("Hambï¿½rguer"),
 	PIZZA ("Pizza"),
 	BATATA_FRITA ("Batata Frita"),
 	CACHORRO_QUENTE ("Cachorro Quente"),
-	COXINHA("Coxinha");
+	COXINHA("Coxinha"),
+        PASTEL ("Pastel");
 	
     private String nome;
     
