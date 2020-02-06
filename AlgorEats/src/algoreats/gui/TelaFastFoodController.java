@@ -1,4 +1,5 @@
 package algoreats.gui;
+import algoreats.negocio.beans.EnumFastFood;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -9,6 +10,10 @@ public class TelaFastFoodController {
     @FXML private TableView<?> tbvPratos;
     @FXML private Button btCancela;
     @FXML private Button btPedido;
+    
+    public void initialize() {
+
+    }
 
     @FXML
     void onClickCancela(ActionEvent event) {
