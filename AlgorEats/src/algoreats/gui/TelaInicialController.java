@@ -35,6 +35,7 @@ public class TelaInicialController {
 	        Scene scene = new Scene(root);
 
 	        s1.setScene(scene);
+	        s1.setResizable(false);
 	        s1.show();
 	        
 		} catch (IOException e) {
@@ -53,6 +54,7 @@ public class TelaInicialController {
 	        Scene scene = new Scene(root);
 
 	        s1.setScene(scene);
+	        s1.setResizable(false);
 	        s1.show();
 	        
 		} catch (IOException e) {
@@ -70,6 +72,7 @@ public class TelaInicialController {
 	        Scene scene = new Scene(root);
 
 	        s1.setScene(scene);
+	        s1.setResizable(false);
 	        s1.show();
 	        
 		} catch (IOException e) {
@@ -87,6 +90,7 @@ public class TelaInicialController {
 	        Scene scene = new Scene(root);
 
 	        s1.setScene(scene);
+	        s1.setResizable(false);
 	        s1.show();
 	        
 		} catch (IOException e) {
@@ -104,6 +108,7 @@ public class TelaInicialController {
 	        Scene scene = new Scene(root);
 
 	        s1.setScene(scene);
+	        s1.setResizable(false);
 	        s1.show();
 	        
 		} catch (IOException e) {

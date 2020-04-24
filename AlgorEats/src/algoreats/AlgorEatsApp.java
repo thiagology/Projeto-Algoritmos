@@ -1,5 +1,7 @@
 package algoreats;
 
+import algoreats.negocio.beans.Pedido;
+import algoreats.negocio.beans.Prato;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -22,6 +24,9 @@ public class AlgorEatsApp extends Application {
 	
 	public static void main(String[] args) {
 		AlgorEatsApp.launch(args);
+		Prato prato = new Prato("Yaksoba", 4.20);
+		Pedido p = new Pedido("Miley Cyrus Armada", null, prato);
+		System.out.println(p);
 	}
 
 }

@@ -12,9 +12,9 @@ package algoreats.negocio.beans;
 public class Pedido {
     private String nome;
     private Endereco endereco;
-    private String prato;
+    private Prato prato;
     
-	public Pedido(String nome, Endereco endereco, String prato) {
+	public Pedido(String nome, Endereco endereco, Prato prato) {
 		super();
 		this.nome = nome;
 		this.endereco = endereco;
@@ -37,17 +37,17 @@ public class Pedido {
 		this.endereco = endereco;
 	}
 
-	public String getPrato() {
+	public Prato getPrato() {
 		return prato;
 	}
 
-	public void setPrato(String prato) {
+	public void setPrato(Prato prato) {
 		this.prato = prato;
 	}
 
 	@Override
 	public String toString() {
-		return "Pedido: \nNome: " + nome + "\n" + endereco + "\nPrato: " + prato;
+		return "\tPedido: \nCliente: " + nome + "\nEndereço: " + endereco + "\nPrato: " + prato;
 	}
     
     
